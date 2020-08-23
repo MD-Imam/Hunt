@@ -1,0 +1,299 @@
+@media (min-width:320px) and (max-width:575px){
+
+ .title p{
+  width:auto;
+ }
+
+/* navbar part */
+
+#manu-part nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#manu-part .manu-item ul li{
+ margin-left: 0px;
+ text-align: center;
+}
+#manu-part .manu-item ul{
+ margin-top: 8px;
+ background: #222222;
+}
+#manu-part .manu-item ul li a:after {
+ bottom: -2px;
+ left: 50%;
+ transform: translateX(-50%);
+ width:50px;
+ background: transparent;
+ content: "";
+ transition: .4s;
+}
+
+#manu-part .manu-item ul li a:hover:after {
+ width:50px;
+ background: #fec600;
+}
+
+  /*============== bannner part============== */
+
+
+  
+  #banner-part .chobi{
+   clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+  }
+  #banner-part .earth{
+   clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+  }
+  #banner-part .overlay{
+   padding-top: 140px;
+   padding-bottom: 60px;
+  }
+  #banner-part .overlay h2{
+     font-size: 30px;
+  }
+  #banner-part .overlay h1{
+     font-size: 52px;
+  }
+  #banner-part .overlay p{
+    width: auto;
+    margin-top: 13px;
+    margin-bottom: 50px;
+  }
+  #banner-part .overlay a{
+   padding: 10px;
+  }
+ 
+
+  /* ================about part================== */
+
+  #about-part {
+   height: 1260px;
+  }
+  #about-part .img img{
+   height: 170px;
+   width: 170px;
+  }
+  #about-part .img{
+   height: 190px;
+   width: 190px;
+  }
+  #about-part .about-item{
+   margin-top: 20px;
+  }
+  #about-part .img .item {
+  
+   top: 170%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   padding: 28px;
+   
+}
+#about-part .img .item p{
+ width: 245px;
+}
+#about-part .img .item .shape{
+ display: none;
+}
+#about-part .img .item i{
+ display: none;
+}
+
+
+
+
+
+#about-part .img .item2 {
+
+ top: 285%;
+ left: 50%;
+ right: auto;
+ transform: translate(-50%,-50%);
+ text-align: center;
+ padding: 28px;
+}
+#about-part .img .item2 p {
+ width: 245px;
+}
+
+#about-part .img .item2 .shape {
+ display: none;
+}
+
+#about-part .img .item2 i {
+display: none;
+}
+
+
+
+
+#about-part .img .item3 {
+ top: 400%;
+ left: 50%;
+ right: auto;
+ transform: translate(-50%,-50%);
+ text-align: center;
+ padding: 28px;
+
+}
+
+
+#about-part .img .item3 p {
+ width: 245px;
+}
+
+#about-part .img .item3 .shape {
+ display: none;
+}
+
+#about-part .img .item3 i {
+display: none;
+}
+
+
+
+#about-part .img .item4 {
+ top: 514%;
+ left: 50%;
+ right: auto;
+ bottom: auto;
+ transform: translate(-50%,-50%);
+ text-align: center;
+ padding: 28px;
+
+}
+
+#about-part .img .item4 p {
+ 
+ width: 245px;
+}
+
+#about-part .img .item4 .shape {
+ display: none;
+}
+
+#about-part .img .item4 i {
+display: none;
+}
+
+/* ================portfolio part===================== */
+
+
+#protfolio-part .overlay{
+  padding-top: 40px;
+ clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+}
+
+#protfolio-part{
+
+ clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+}
+
+
+
+/* ================our service part===================== */
+
+#our-services .line img {
+  display: none;
+}
+#our-services .total .item .title2 {
+  text-align: center;
+
+
+}
+
+#our-services .total .item .title33  {
+  text-align: center;
+}
+#our-services .total .item .text p{
+  width: auto;
+}
+
+
+/* ================our service bottom part===================== */
+
+#extra{
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+ 
+}
+#extra .overlay{
+ padding-top: 120px;
+ padding-bottom: 60px;
+}
+
+#extra .overlay .dan .danda{
+  display: none;
+}
+#extra .overlay .regular{
+ width: 292px;
+ height: 190px;
+ margin: 0 auto;
+
+}
+
+#extra .overlay .regular .round {
+ 
+  margin: 0  -11px;
+}
+
+#extra .overlay .regular .slick-current {
+  
+  transform: scale(.8);
+}
+
+#extra .overlay .regular .prev{
+  top: -14%;
+  left: 51%;
+}
+#extra .overlay .regular .next{
+  bottom: 2%;
+  left: 52%;
+}
+
+#extra .overlay .irregular .around{
+  margin-top: 0;
+}
+
+#extra .overlay .irregular .around .ound .shape{
+  display: none;
+}
+
+#extra .overlay .irregular .around .ound{
+  margin-left: 0;
+}
+
+#extra .overlay .irregular .around .ound p{
+height: auto;
+
+}
+
+
+/* =======================pricing part=========================== */
+
+#pricing-part .price{
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+/* =======================counter part=========================== */
+
+
+.totl .lay .client .it{
+  transform: scale(.8);
+}
+
+
+/* =======================counter part=========================== */
+
+#meet-part .ketu{
+  margin-top: 0px;
+}
+
+#meet-part .am{
+  margin-top: 30px;
+}
+
+
+
+
+
+}

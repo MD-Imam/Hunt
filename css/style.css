@@ -1,0 +1,1564 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+
+}
+
+.title {
+    margin-top: 50px;
+}
+
+.title h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #111111;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.title p {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 500;
+    width: 640px;
+    letter-spacing: .5px;
+}
+
+/*===================================
+           manu-part start
+=====================================*/
+
+#manu-part nav{
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid rgba(254, 198, 0, .2);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: .8s  ease-in-out;
+}
+
+#manu-part .fixed{
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    transition: .8s  ease-in-out;
+    animation:mymove .8s ease-in-out;
+}
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top:0px;
+    }
+  }
+
+  #manu-part .fixed .manu-item ul li a:after {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #fec600;
+    content: "";
+    transition: .4s;
+}
+#manu-part nav .navbar-brand{
+    padding: 0;
+}
+
+
+
+#manu-part .manu-item ul li {
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+}
+
+#manu-part .manu-item ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    transition: .4s;
+
+}
+
+#manu-part .manu-item ul li .home {
+    color: #fec600
+}
+
+
+
+#manu-part .manu-item ul li .home:after {
+    background: #fec600;
+    width: 100%;
+}
+
+#manu-part .manu-item ul li a:hover {
+    color: #fec600;
+}
+
+#manu-part .manu-item ul li a:after {
+    position: absolute;
+    bottom: -37px;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #fec600;
+    content: "";
+    transition: .4s;
+}
+
+#manu-part .manu-item ul li a:hover:after {
+    width: 100%;
+}
+
+#manu-part nav button{
+    color:#fec600 ;
+    border: 1px solid #fec600;
+}
+/*===================================
+           manu-part end
+=====================================*/
+
+/*===================================
+           banner-part start
+=====================================*/
+
+
+#banner-part .chobi {
+    background: url(../imqges/banner.png) no-repeat center;
+    background-size: cover;
+
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+#banner-part .earth {
+    background: url(../imqges/service909090.png) no-repeat center;
+    background-size: cover;
+
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+    text-align: center;
+    background-attachment: fixed;
+
+}
+#banner-part .book {
+    background: url(../imqges/banner-img4.png) no-repeat center;
+    background-size: cover;
+
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+
+
+#banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    padding-top: 245px;
+    padding-bottom: 180px;
+}
+
+#banner-part .overlay h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#banner-part .overlay h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    color: #fff;
+    font-weight: bold;
+    color: #fec600;
+}
+
+#banner-part .overlay p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    width: 580px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    letter-spacing: .5px;
+
+}
+
+#banner-part .overlay a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #fff;
+    padding: 14px;
+    display: inline-block;
+    margin-left: 20px;
+    transition: .4s;
+    letter-spacing: 1px;
+}
+
+#banner-part .overlay .view {
+    background: #fec600;
+    border-color: #fec600;
+    color: #111111;
+}
+
+#banner-part .overlay .view:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+
+#banner-part .overlay a:hover {
+    background: #fec600;
+    border-color: #fec600;
+    color: #111111;
+}
+
+/*===================================
+           banner-part  end
+===================================*/
+
+/*===================================
+          about -part start
+===================================*/
+#about-part {
+    width: 100%;
+    height: 1080px;
+
+
+}
+
+.about-item {
+    margin-top: 300px;
+}
+
+#about-part .img {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    border: 1px solid #545454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+#about-part .img img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+
+#about-part .img .item {
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    left: -117%;
+    transform: translateY(-50%);
+    text-align: right;
+    padding: 32px;
+
+    transition: .4s;
+
+}
+
+#about-part .img .item h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#about-part .img .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 310px;
+}
+
+#about-part .img .item .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%) rotate(45deg);
+
+}
+
+#about-part .img .item i {
+    position: absolute;
+    top: 50%;
+    right: -17.5%;
+    transform: translateY(-50%);
+    transition: .4s;
+
+
+}
+
+#about-part .img .item:hover {
+
+    filter: drop-shadow(0 0 0.50rem #bdb3b3);
+
+}
+
+#about-part .img .item:hover i {
+    color: #fec600;
+}
+
+
+
+
+
+
+
+
+
+
+
+#about-part .img .item2 {
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    right: -117%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding: 32px;
+
+
+    transition: .4s;
+
+}
+
+#about-part .img .item2 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#about-part .img .item2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 310px;
+}
+
+#about-part .img .item2 .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#about-part .img .item2 i {
+    position: absolute;
+    top: 50%;
+    left: -17.5%;
+    transform: translateY(-50%);
+    transition: .4s;
+
+
+}
+
+#about-part .img .item2:hover {
+    filter: drop-shadow(0 0 0.50rem #bdb3b3);
+}
+
+#about-part .img .item2:hover i {
+    color: #fec600;
+}
+
+
+
+#about-part .img .item3 {
+    background: #eeeeee;
+    position: absolute;
+    top: -63%;
+    right: 0;
+    transform: translate();
+    text-align: left;
+    padding: 32px;
+    transition: .4s;
+
+}
+
+#about-part .img .item3 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#about-part .img .item3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 310px;
+}
+
+#about-part .img .item3 .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+
+#about-part .img .item3 i {
+    position: absolute;
+    bottom: -41%;
+    left: 50%;
+    transform: translate(-41%, -50%);
+    transition: .4s;
+
+
+}
+
+#about-part .img .item3:hover {
+    filter: drop-shadow(0 0 0.50rem #bdb3b3);
+}
+
+#about-part .img .item3:hover i {
+    color: #fec600;
+}
+
+
+
+
+
+
+
+#about-part .img .item4 {
+    background: #eeeeee;
+    position: absolute;
+    bottom: -64%;
+    right: 0;
+    transform: translate();
+    text-align: left;
+    padding: 32px;
+
+    transition: .4s;
+
+}
+
+#about-part .img .item4 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#about-part .img .item4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 310px;
+}
+
+#about-part .img .item4 .shape {
+    width: 40px;
+    height: 40px;
+    background: #eeeeee;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#about-part .img .item4 i {
+    position: absolute;
+    top: -36%;
+    left: 50%;
+    transform: translate(-50%, -36%);
+    transition: .4s;
+
+
+}
+
+#about-part .img .item4:hover {
+    filter: drop-shadow(0 0 0.50rem #bdb3b3);
+}
+
+#about-part .img .item4:hover i {
+    color: #fec600;
+}
+
+/*===================================
+           about-part  end
+===================================*/
+
+
+/*===================================
+           protfolio-part start
+===================================*/
+#protfolio-part {
+    background: url(../imqges/protfolio-banner.png) no-repeat center;
+    background-size: cover;
+    height: auto;
+    clip-path: polygon(0 12%, 100% 1%, 100% 90%, 0% 100%);
+    position: relative;
+    background-attachment: fixed;
+}
+
+#protfolio-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding-top: 80px;
+    padding-bottom: 115px;
+
+}
+
+#protfolio-part .overlay .a h2 {
+    color: #fff;
+}
+#protfolio-part .overlay .a p {
+
+    color: #fff;
+}
+
+#protfolio-part .overlay .mini {
+    width: 100%;
+    background: transparent;
+    display: flex;
+}
+
+#protfolio-part .overlay .maxi {
+    width: 23%;
+    height: 80%;
+    background: transparent;
+    margin: 0 13px;
+
+
+}
+
+#protfolio-part .overlay .maxi .img {
+    position: relative;
+    margin-top: 26px;
+}
+
+#protfolio-part .overlay .maxi img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+#protfolio-part .overlay .maxi .img .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    transform: scale(0);
+    transition: .4s;
+}
+
+#protfolio-part .overlay .maxi .img .over i {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#protfolio-part .overlay .maxi .img:hover .over {
+    transform: scale(1);
+}
+
+/*===================================
+           protfolio-part  end
+===================================*/
+
+/*===================================
+        services-part  end
+===================================*/
+#our-services {
+    position: relative;
+}
+
+#our-services .c {
+    margin-bottom: 100px;
+}
+#our-services .line {
+    position: relative;
+}
+
+#our-services .line img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+
+#our-services .total {
+    padding-top: 80px;
+    position: relative;
+}
+
+#our-services .total .item {
+  
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#our-services .total .item .title2 {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#our-services .total .item .title33  {
+    text-align: left;
+}
+
+#our-services .total .item .title2 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: 500;
+   
+    letter-spacing: .5px;
+}
+
+#our-services .total .item .img {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 188px;
+}
+
+#our-services .total .item .img .border50 {
+    width: 72px;
+    height: 72px;
+    background: #eeeeee;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+    position: relative;
+
+
+
+
+}
+
+#our-services .total .prev {
+    height: 40px;
+    width: 40px;
+
+    position: absolute;
+    top: -6%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #fec600;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    background: #fec600;
+    transition: .5s;
+
+}
+
+#our-services .total .prev:hover {
+    background: transparent;
+    border-color: black;
+}
+
+#our-services .total .next {
+    height: 40px;
+    width: 40px;
+
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    background: transparent;
+    transition: .5s;
+
+}
+
+#our-services .total .next:hover {
+    background: transparent;
+    border-color: #fec600;
+    background: #fec600;
+}
+
+#our-services .total .slick-current .img .border50 {
+    transform: scale(1.3);
+    background: #fec600;
+}
+
+#our-services .total .item .img .border50 img {
+    height: 40px;
+    width: 46px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#our-services .total .item .text {
+  
+    position: relative;
+    transition: .4s;
+}
+
+#our-services .total .item .text:hover {
+    filter: drop-shadow(0px 2px 3px #bdb3b3);
+}
+
+#our-services .total .item .text p {
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 500;
+    width: 450px;
+    padding: 30px 30px;
+    background: #f1f1f1;
+    letter-spacing: .5px;
+}
+
+#our-services .total .item .text .shape {
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-radius: 5px;
+}
+
+#our-services .total .item .text .m {
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    transform: translate(50%, -50%) rotate(45deg);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#extra {
+    width: 100%;
+    background: url(../imqges/service909090.png) no-repeat center;
+    background-size: cover;
+    margin-top: 100px;
+    background-attachment: fixed;
+    clip-path: polygon(0 13%, 100% 0, 100% 87%, 0% 100%);
+}
+
+#extra .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    padding-top: 270px;
+    padding-bottom: 270px;
+    position: relative;
+}
+
+#extra .overlay {
+    position: relative;
+}
+
+#extra .overlay .dan .danda {
+    position: absolute;
+    top: 53%;
+    left: 41%;
+    transform: translate(-50%,-50%);
+}
+
+#extra .overlay .regular {
+    position: relative;
+}
+
+#extra .overlay .regular .prev {
+    position: absolute;
+    top:-20%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    background: #fec600;
+    border: 1px solid #fec600;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: .4s;
+    z-index: 9;
+
+}
+
+#extra .overlay .regular .prev:hover {
+    background: transparent;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#extra .overlay .regular .next {
+    position: absolute;
+   bottom:-35%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    background: transparent;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: .4s;
+    z-index: 9;
+
+}
+
+#extra .overlay .regular .next:hover {
+    background: #fec600;
+    border: 1px solid #fec600;
+    color: #000;
+    font-weight: bold;
+}
+
+#extra .overlay .regular .round {
+    height: 120px;
+    width: 120px !important;
+    background: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    transform: scale(.7);
+}
+
+
+#extra .overlay .regular .round .overy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .7);
+}
+
+#extra .overlay .regular .slick-current {
+    background: yellow;
+    transform: scale(1);
+}
+
+#extra .overlay .regular .slick-current .overy {
+    background: transparent;
+}
+
+
+
+
+
+#extra .overlay .irregular .around {
+    margin-top: 70px;
+
+}
+
+#extra .overlay .irregular .around .ound {
+   
+    background: white;
+    padding: 30px 30px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 34px;
+}
+
+
+#extra .overlay .irregular .around .ound h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111111;
+}
+
+#extra .overlay .irregular .around .ound .icon {
+    margin-top: 2px;
+}
+
+#extra .overlay .irregular .around .ound .icon i {
+    color: #fec600;
+}
+
+#extra .overlay .irregular .around .ound h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    padding-top: 5px;
+    color: #111111;
+}
+
+#extra .overlay .irregular .around .ound p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 110px;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+#extra .overlay .irregular .around .ound .sign {
+
+    margin-top: 30px;
+}
+
+#extra .overlay .irregular .around .ound .sign img {
+    margin-left: auto;
+}
+
+#extra .overlay .irregular .around .ound .shape {
+    height: 50px;
+    width: 50px;
+    background: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 42%;
+    left: -25px;
+    z-index: 1;
+
+}
+
+/*
+==================================
+        services-part  ends
+
+===================================
+*/
+
+/*
+==================================
+    pricing-plan part css
+===================================
+*/
+#pricing-part {
+    width: 100%;
+    height: 700px;
+}
+
+#pricing-part .price {
+    width: 30%;
+    height: 500px;
+    background: #f1f1f1;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 50px;
+   
+    margin-left: 38px;
+    transform: scale(.8);
+    transition: .7;
+}
+
+#pricing-part .slick-current {
+    transform: scale(1);
+}
+
+#pricing-part .price h4 {
+    width: 100%;
+    height: 130px;
+    background: #444444;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+    transition: .4s;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+#pricing-part .slick-current h4 {
+    background: #fec600;
+    color: #111111;
+}
+
+#pricing-part .price .border {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #444444;
+    background: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .4s;
+
+}
+
+#pricing-part .price .border .plan {
+    width: 90px;
+    height: 90px;
+    background: #444444;
+    border-radius: 50%;
+    text-align: center;
+    transition: .4s;
+
+
+
+}
+
+#pricing-part .price .border .plan .nn span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    color: #f1f1f1;
+    display: block;
+}
+
+#pricing-part .price .border .plan .nn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: light;
+    color: #f1f1f1;
+    display: block;
+    margin-top: 15px;
+
+
+}
+
+#pricing-part .slick-current .border {
+    border-color: #fec600;
+}
+
+#pricing-part .slick-current .border .plan {
+    background: #fec600;
+
+}
+
+#pricing-part .price ul {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pricing-part .price li {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#pricing-part .price h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    background: #444444;
+    color: #f1f1f1;
+    transition: .4s;
+    clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+}
+
+#pricing-part .slick-current h1 {
+    background: #fec600;
+    color: #111111;
+
+}
+
+#pricing-part .slick-current .border .plan .nn span {
+    color: black;
+}
+
+#pricing-part .slick-current .border .plan .nn {
+    color: black;
+}
+
+
+  /* ========================== counter part=================== */
+
+
+.totl {
+     
+    width: 100%;
+    background: url(../imqges/totalimg.png) no-repeat;
+    background-size: cover;
+
+    position: relative;
+    transform: skewY(-3deg);
+    margin-top: 50px;
+ 
+
+}
+
+.totl .lay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+   padding: 20px 0;
+}
+
+.totl .lay .client {
+    transform: skewX(-2deg);
+}
+
+.totl .lay .client .it {
+    border: 1px solid #ffffff;
+    transform: scale(.9);
+
+}
+
+.totl .lay .client .it p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #f1f1f1;
+    text-align: center;
+    transform: skewY(3deg);
+}
+
+.totl .lay .client .it .num {
+    padding-top: 20px;
+}
+
+/*
+==================================
+    pricing-plan part css
+===================================
+*/
+/*
+==================================
+    meet- part css
+===================================
+*/
+#meet-part {
+    width: 100%;
+   
+
+}
+
+#meet-part .ketu {
+    margin-top: 60px;
+}
+
+
+
+#meet-part .am {
+  
+
+    background: transparent;
+    border: 1px solid #dddddd;
+    transition: .5s;
+   
+}
+
+#meet-part .am .pink {
+    width: 100%;
+    height: 290px;
+
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    text-align: center;
+    overflow: hidden;
+    background: #f1f1f1;
+    position: relative;
+
+}
+
+#meet-part .am .pink .titu {
+    margin-left: -37px;
+}
+
+#meet-part .am .pink img {
+    margin-top: 10px;
+}
+
+#meet-part .am .pink .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: rgba(254, 198, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+#meet-part .am .pink .overlay i {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .4s;
+
+}
+
+#meet-part .am .red {
+    width: 100%;
+
+    background: transparent;
+    text-align: center;
+}
+
+#meet-part .am .red h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#meet-part .am .red p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+
+}
+
+#meet-part .am .red .icon {
+    margin-top: -50px;
+    opacity: 0;
+    transition: .5s;
+
+}
+
+#meet-part .am .red .icon i {
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    background: transparent;
+    border: 1px solid #111111;
+    border-radius: 50%;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin-bottom: 25px;
+    transition: .4s;
+
+}
+
+#meet-part .am:hover .red .icon {
+    margin-top: 20px;
+    opacity: 1;
+
+}
+
+#meet-part .am .red .icon i:hover {
+    background: #fec600;
+    border-color: #fec600;
+}
+
+#meet-part .am:hover .pink .overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+#meet-part .am:hover .pink .overlay i {
+    opacity: 1;
+}
+
+#meet-part .am:hover {
+    transform: scale(1.1);
+}
+
+/*
+==================================
+    meet- part css
+===================================
+*/
+
+/*
+==================================
+    part footer part css
+===================================
+*/
+  
+/* ========== partner -part==========  */
+
+
+.theme {
+    width: 100%;
+    background: #f1f1f1;
+    transform: skewY(-3deg);
+    padding: 35px 0;
+    margin-top: 80px;
+}
+
+.theme .oil {
+    transform: skewX(-2deg);
+}
+
+.theme .oil .slick-list {
+    width: 99%;
+}
+
+.theme .forest {
+    border: 1px solid #cccccc;
+  
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    padding: 30px 0;
+
+}
+
+.theme .slick-current {
+    border-color: #fec600;
+}
+
+.theme .forest img {
+    transform: skewY(3deg) scale(.9);
+}
+
+.theme .forest:hover {
+    border-color: #fec600;
+}
+
+/* ========== partner -part==========  */
+
+
+#footer-part {
+    width: 100%;
+    background: #222222;
+   
+}
+
+#footer-part .pppp {
+    width: 100%;
+    height: 155px;
+    background: #222222;
+    text-align: center;
+    border-bottom: 1px solid rgba(254, 198, 0, .2);
+    transform: skewY(-3deg);
+}
+
+#footer-part .pppp img {
+    margin-top: 60px;
+    transform: skewY(3deg);
+}
+
+#footer-part .address {
+    width: 100%;
+    background: transparent;
+    margin-top: 50px;
+   
+}
+
+#footer-part .address .add {
+    background: transparent;
+    text-align: center;
+    border-right: 1px solid rgba(254, 198, 0, .2);
+    padding: 0 0;
+    margin-top: 30px;
+    line-height: 27px;
+}
+
+#footer-part .address .add i {
+    height: 35px;
+    width: 35px;
+    background: #fec600;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+
+}
+
+#footer-part .address .add h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-top: 20px;
+
+}
+
+#footer-part .address .add p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-top: 7px;
+}
+
+#footer-part h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #f1f1f1;
+    text-align: center;
+    padding-top:50px;
+    margin-bottom: 30px;
+}
+
+#footer-part .bcd {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#footer-part .bcd a {
+    display: inline-block;
+
+}
+
+#footer-part .bcd a {
+    height: 40px;
+    width: 40px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    transition: .4s;
+    color: #353535;
+}
+
+#footer-part .bcd a:hover {
+    background: #fec600;
+}
+
+#footer-part h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f1f1f1;
+    text-align: center;
+    background: #444444;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    letter-spacing: .5px;
+
+
+}
+
+#footer-part h3 span {
+    color: #fec600;
+}
+
+/*
+==================================
+    part footer part css
+===================================
+*/

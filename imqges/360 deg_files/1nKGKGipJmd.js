@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Xm+je"]); }
+
+__d("ProfilePicDisableContextMenu",["Event","Run"],(function(a,b,c,d,e,f){a={_contextMenuEventHandler:null,init:function(a){var c=this;b("Run").onLeave(function(){c._contextMenuEventHandler&&(c._contextMenuEventHandler.remove(),c._contextMenuEventHandler=null)});this._contextMenuEventHandler=b("Event").listen(a,"contextmenu",function(a){a.preventDefault(),a.stopPropagation()})}};e.exports=a}),null);
